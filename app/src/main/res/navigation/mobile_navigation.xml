@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_breakfast">
+
+    <fragment
+        android:id="@+id/navigation_breakfast"
+        android:name="com.example.myhomemenu.ui.breakfast.BreakfastFragment"
+        android:label="@string/title_breakfast"
+        tools:layout="@layout/fragment_breakfast" />
+
+    <fragment
+        android:id="@+id/navigation_lunch"
+        android:name="com.example.myhomemenu.ui.lunch.LunchFragment"
+        android:label="@string/title_lunch"
+        tools:layout="@layout/fragment_lunch" />
+
+    <fragment
+        android:id="@+id/navigation_dinner"
+        android:name="com.example.myhomemenu.ui.dinner.DinnerFragment"
+        android:label="@string/title_dinner"
+        tools:layout="@layout/fragment_dinner" />
+</navigation>

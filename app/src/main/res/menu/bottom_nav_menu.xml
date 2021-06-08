@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_breakfast"
+        android:icon="@drawable/ic_breakfast_24"
+        android:title="@string/title_breakfast" />
+
+    <item
+        android:id="@+id/navigation_lunch"
+        android:icon="@drawable/ic_lunch_24"
+        android:title="@string/title_lunch" />
+
+    <item
+        android:id="@+id/navigation_dinner"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_dinner" />
+
+</menu>
